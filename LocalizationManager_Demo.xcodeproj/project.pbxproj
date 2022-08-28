@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533F6B4228BBADF9009CA1E2 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F6B4128BBADF9009CA1E2 /* LocalizationManager.swift */; };
 		53A3820228BBAA7F00D5A931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A3820128BBAA7F00D5A931 /* AppDelegate.swift */; };
 		53A3820428BBAA7F00D5A931 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A3820328BBAA7F00D5A931 /* SceneDelegate.swift */; };
 		53A3820628BBAA7F00D5A931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A3820528BBAA7F00D5A931 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		533F6B4128BBADF9009CA1E2 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
 		53A381FE28BBAA7F00D5A931 /* LocalizationManager_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationManager_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A3820128BBAA7F00D5A931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53A3820328BBAA7F00D5A931 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				53A3820128BBAA7F00D5A931 /* AppDelegate.swift */,
 				53A3820328BBAA7F00D5A931 /* SceneDelegate.swift */,
 				53A3820528BBAA7F00D5A931 /* ViewController.swift */,
+				533F6B4128BBADF9009CA1E2 /* LocalizationManager.swift */,
 				53A3820728BBAA7F00D5A931 /* Main.storyboard */,
 				53A3820A28BBAA8000D5A931 /* Assets.xcassets */,
 				53A3820C28BBAA8000D5A931 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533F6B4228BBADF9009CA1E2 /* LocalizationManager.swift in Sources */,
 				53A3820628BBAA7F00D5A931 /* ViewController.swift in Sources */,
 				53A3820228BBAA7F00D5A931 /* AppDelegate.swift in Sources */,
 				53A3820428BBAA7F00D5A931 /* SceneDelegate.swift in Sources */,

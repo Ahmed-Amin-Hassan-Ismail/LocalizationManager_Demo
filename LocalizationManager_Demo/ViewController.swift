@@ -17,13 +17,15 @@ class ViewController: UIViewController {
 
     //MARK: - IBActions
     @IBAction func switchLanguageAction(_ sender: UIButton) {
-        // to switch between two language
+        
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        myLabel.text = "Language Check"
+        myImage.image = UIImage(named: "arrow")
     }
 
 
