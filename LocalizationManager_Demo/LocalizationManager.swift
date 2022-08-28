@@ -113,7 +113,7 @@ class LocalizationManager: NSObject {
     
     
     //MARK: - configure startup lang
-    private func setAppInitLanguage() {
+    func setAppInitLanguage() {
         if let selectedLang = getLanguage() {
             setLanguage(language: selectedLang)
         } else {

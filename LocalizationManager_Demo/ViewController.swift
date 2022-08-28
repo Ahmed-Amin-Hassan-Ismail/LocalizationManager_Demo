@@ -17,17 +17,25 @@ class ViewController: UIViewController {
 
     //MARK: - IBActions
     @IBAction func switchLanguageAction(_ sender: UIButton) {
-        
+        if LocalizationManager.shared.getLanguage() == .Arabic {
+            LocalizationManager.shared.setLanguage(language: .English)
+        } else {
+            LocalizationManager.shared.setLanguage(language: .Arabic)
+        }
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        myLabel.text = "Language Check"
-        myImage.image = UIImage(named: "arrow")
+        
     }
 
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        myLabel.text = "Language Check".localized
+        myImage.image = UIImage(named: "arrow")?.imageFlippedForRightToLeftLayoutDirection()
+    }
 
 }
 
